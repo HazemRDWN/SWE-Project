@@ -35,3 +35,5 @@ def addUser():
         status = adminRepo(db, admin_id).add_admin(id, name, password)
 
     return render_template("ManageUsers.html", message = status)
+
+#Ready for testing
