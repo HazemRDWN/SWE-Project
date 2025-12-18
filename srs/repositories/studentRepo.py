@@ -36,3 +36,4 @@ def DropCourse(self, course_id):
         (self.student_id, course_id),
     )
     self.db.commit()
+

@@ -72,3 +72,4 @@ def drop_course():
     else:
         return render_template("drop_course.html")
 
+
